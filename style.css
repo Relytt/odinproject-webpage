@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
 
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Zen Antique', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -61,7 +61,7 @@ h1 {
 .content-info {
   text-align: center;
   display: flex;
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -79,7 +79,7 @@ h1 {
 }
 
 .image {
-  margin: auto;
+  margin: 20px 0px;
   width: 32%;
   padding: 10px 0px 10px 0px;
 }
@@ -98,6 +98,73 @@ h1 {
   background: #a9a9a9;
 }
 
+.quote {
+  background: #e5e7eb;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: italic;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sign-up {
+  background: #3882f6;
+  display: flex;
+  margin: 50px 200px;
+  flex-direction: row;
+  /* width: 100%; */
+  padding: 20px 100px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: none;
+  line-height: 0.8;
+  color: #f4f4f4;
+  align-items: center;
+}
+
+.sign-item {
+  flex: 1;
+}
+
+.sign-text {
+  text-align: left;
+  /* background: red; */
+}
+
+.sign-text p {
+  opacity: 0.7;
+  margin: 15px 30px 30px 50px;
+}
+
+.sign-up-header {
+  margin: 30px 0px 0px 50px;
+  padding: 0%;
+  /* background: red; */
+}
+
+.sign-button button {
+  color: #fff;
+  border-color: #fff;
+  border-radius: 58px;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  font-size: 15px;
+  /* background: red; */
+
+  
+  
+}
+
+.sign-button button:hover {
+  background: #a9a9a9;
+}
+
+.footer-button {
+  text-align: right;
+
+
+}
 
 .footer {
   background: #1f2937;
