@@ -146,11 +146,12 @@ h1 {
 
 .sign-button button {
   color: #fff;
-  border-color: #fff;
+  border: #fff solid 1px;
   border-radius: 58px;
   background-color: #3882f6;
   padding: 5px 25px;
   font-size: 15px;
+  cursor: pointer;
   /* background: red; */
 
   
@@ -163,6 +164,7 @@ h1 {
 
 .footer-button {
   text-align: right;
+
 
 
 }
