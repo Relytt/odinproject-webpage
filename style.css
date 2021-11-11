@@ -110,6 +110,7 @@ h1 {
 
 .sign-up {
   background: #3882f6;
+  /* background: red; */
   display: flex;
   margin: 50px 200px;
   flex-direction: row;
